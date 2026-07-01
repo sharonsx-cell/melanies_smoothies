@@ -1,11 +1,8 @@
-# requirements.txt (correct version)
-streamlit
-snowflake-snowpark-python
-
+# environment.yml (local conda only, Streamlit ignores this file)
 name: app_environment
 channels:
   - snowflake
 dependencies:
   - python=3.11.*
-  - snowflake-snowpark-python=
-  - streamlit=
+  - snowflake-snowpark-python
+  - streamlit
